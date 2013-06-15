@@ -750,6 +750,11 @@ padding-top: 15px;
 spacing: 5px;
 }
 
+.run-dialog-completion-box { 
+    padding-left: 15px;
+    font-size: 10pt;
+}
+
 .run-dialog-entry {
     border-radius: 4px;
     color: #3c3b37;
@@ -1231,9 +1236,27 @@ icon-size: 1em;
 	padding-right: 5px;
 }
 .sound-track-box {	
-	padding-left: 15px;
-	padding-right: 15px;	
+    padding-top: 2px;
+	padding-left: 18px;
+	padding-right: 18px;	
 	max-width: 220px;
+}
+
+.sound-seek-box {
+   padding-left: 25px;
+}
+
+.sound-seek-box StLabel {
+   padding-top: 2px;
+}
+
+.sound-seek-box StIcon {
+   icon-size: 1ruem;
+   padding-bottom: 2px;
+}
+
+.sound-seek-slider {
+   width: 145px;   
 }
 
 .sound-volume-menu-item {
@@ -1249,8 +1272,9 @@ padding: .4em 1.75em;
 .sound-playback-control {
 	padding-top: 5px;
 	padding-bottom: 10px;
-	padding-left: 10px;
+/*	padding-left: 10px;
 	padding-right: 10px;
+*/
 }
 
 /* ===================================================================
@@ -1333,6 +1357,14 @@ transition-duration: 300;
 /* ===================================================================
 * Applets (applet.js) 
 * ===================================================================*/
+
+.applet-separator {
+	padding: 5px 5px;
+}
+.applet-separator-line {
+	width: 2px;
+	background: rgba(255,255,255,.5);
+}
 
 .applet-box {
 padding-left: 5px;
@@ -1446,5 +1478,10 @@ box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
 }
 
 .radiobutton StLabel {
-padding-top: 4px;
+    padding-top: 4px;
+    
+}
+
+.flashspot {
+    background-color: white;
 }
